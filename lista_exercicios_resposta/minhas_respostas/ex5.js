@@ -1,0 +1,4 @@
+function valor(num){
+    valorReais
+}
+

@@ -1,0 +1,59 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(25, 25, 25);
+    padding: 15px;
+}
+
+header>h1 {
+    color: rgb(231, 231, 231);
+    text-align: left;
+    margin-left: 75px;
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(216, 216, 216);
+    margin: 45px;
+    padding: 20px;
+    border-radius:10px;
+}
+
+body {
+    background-image: url("https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/blt0094617a3965299e/60debf0a118f582e1262e449/b671997e2a4fc93c47f179c0075fdd917db583b1.jpg?auto=webp&fit=crop&format=jpg&quality=100");
+}
+
+.Titulos {
+    margin: 15px 0px;
+}
+
+.logo{
+    max-width: 90px;
+    position:absolute;
+    top:10px;
+    
+}
+pre{
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.menu_navegacao{
+    color: white;
+    list-style: none;
+    position: absolute;
+    right:20px;
+    top:45px;
+    display: flex;
+    padding: 5px;
+}
+
+.fundacao:hover,.titulos:hover,.idolos:hover{
+    color:rgb(187, 187, 187);
+    cursor:context-menu;
+}

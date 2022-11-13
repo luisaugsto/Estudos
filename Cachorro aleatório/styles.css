@@ -100,7 +100,8 @@ img {
     }
 
     #caixa-principal {
-        background-color: rgb(255, 249, 196);
+       /*background-color: rgb(255, 249, 196);*/
+background-color: aqua;
 
         display: flex;
         justify-content: center;

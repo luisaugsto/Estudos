@@ -100,8 +100,7 @@ img {
     }
 
     #caixa-principal {
-       /*background-color: rgb(255, 249, 196);*/
-        background-color: aqua;
+        background-color: rgb(255, 249, 196);
 
         display: flex;
         justify-content: center;
@@ -137,18 +136,19 @@ img {
 
     }
 
-    button{
+    button {
         width: 290px;
         position: relative;
-        z-index:1 ;
+        z-index: 1;
         margin-top: -350px;
     }
+
     button::after {
         background-color: rgb(215, 33, 33);
         color: white;
         cursor: pointer;
         box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3), 3px 3px 5px rgba(0, 0, 0, 0.4);
-    
+
     }
 
 }

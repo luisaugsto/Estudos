@@ -91,23 +91,24 @@ img {
 @media (max-width:560px) {
 
     header {
-        width: 100%;
+        width: 100%
     }
 
     header>h1 {
         font-size: 1.8rem;
+        text-align: center;
     }
 
     #caixa-principal {
-        background-color: aqua;
+        background-color: rgb(255, 249, 196);
 
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
 
-        height: 500px;
-        width: 90%;
+        position: relative;
+        height: 450px;
+        width: 330px;
 
         margin: auto;
         margin-top: 20px;
@@ -116,24 +117,37 @@ img {
     }
 
     #caixa-imagem {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 350px;
         position: absolute;
-
-        left: 0px;
-
 
         display: flex;
         justify-content: center;
         align-items: center;
 
+        left: 14px;
+
     }
 
 
     img {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 290px;
+        max-height: 320px;
 
+    }
+
+    button{
+        width: 290px;
+        position: relative;
+        z-index:1 ;
+        margin-top: -350px;
+    }
+    button::after {
+        background-color: rgb(215, 33, 33);
+        color: white;
+        cursor: pointer;
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3), 3px 3px 5px rgba(0, 0, 0, 0.4);
+    
     }
 
 }

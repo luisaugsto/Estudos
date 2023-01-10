@@ -4,7 +4,7 @@ Ao clicar no botão , deverá aparecer na tela uma imagem aleatoria.
 2. gerar um número aleatório entre 1 a 10
 3. criar um elemento img no html 
 4. esse elemento tera um source caoX.png , sendo o X o número gerado anteriormente , esse número corresponde a uma das imagens de cachorros
-5.limpar a tela para não gerar imagens infinitamente , deixando sempre uma imagem na tela
+5. limpar a tela para não gerar imagens infinitamente , deixando sempre uma imagem na tela
 */ 
 
 

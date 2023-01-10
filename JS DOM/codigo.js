@@ -25,3 +25,7 @@ let novoTitulo = document.createElement('h1')
 novoTitulo.textContent='Tu é baitola'
 
 document.body.appendChild(novoTitulo)
+
+const diaAtual = new Date()
+
+console.log(diaAtual)
